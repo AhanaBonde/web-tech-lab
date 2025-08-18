@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FORM</title>
 </head>
-<body>
+<body style="background-color: lightblue;">
+    <form action="/action.php">
+        <h4>FORM</h4>
+        <input type="text" name="name" placeholder="Enter your name">
+        <input type="email" name="email" placeholder="Enter your email">
+        <input type="submit" value="Submit">
+        <br>
+        <label for="101">
+        <input type="radio" value="class x" id="101" name="class">class x
+        </label>
+        <br>
+        <br>
+        <label for="102">
+        <input type="radio" value="class xii" id="102" name="class" >class xii
+        </label>
+        <br>
+              <h4>select your suject</h4>
+        <br>
+        <label for="math">
+        <input type="checkbox" value="math" id="101" name="subject" >math
+        </label>
+        <label for="science">
+        <input type="checkbox" value="math" id="102" name="subject" >science
+        </label>
+        <br><br>
+        <select name="city" id="city">
+          <option value="Nagpur">Nagpur</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Pune">Pune</option>
+        </select>
+        <br><br>
+        <textarea name="feedback" id="101" placeholder="enter your feedback" rows=5>Feedback
+
+</textarea>
+
+       </form>
     
 </body>
 </html>
